@@ -1,0 +1,25 @@
+#vs project files
+*.opensdf
+*.pro.user
+*.sdf
+*.v12.suo
+*.aps
+*.user
+GeneratedFiles/
+Release/
+Debug/
+Win32/
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
