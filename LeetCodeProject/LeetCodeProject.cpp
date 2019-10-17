@@ -13,6 +13,7 @@
 #include "LongestPalindrome.h"
 #include "intReverse.h"
 #include "StringAtoi.h"
+#include "Palindrome.h"
 
 using namespace std;
 
@@ -49,6 +50,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//string to int
 	StringAtoi sa;
 	int sares = sa.strAtoi("2147483646");
+
+	//╩ьнд
+	Palindrome pd;
+	pd.isNumberPalindrome(12321);
+
 
 	system("pause");
 

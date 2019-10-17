@@ -4,6 +4,6 @@ class Palindrome
 public:
 	Palindrome();
 	~Palindrome();
-	bool isPalindrome(int x);
+	bool isNumberPalindrome(int x);
 };
 
