@@ -82,9 +82,12 @@
     <ClInclude Include="AddTwoNumber.h" />
     <ClInclude Include="FindMedianSortedArrays.h" />
     <ClInclude Include="intReverse.h" />
+    <ClInclude Include="IntToRoman.h" />
     <ClInclude Include="LengthOfLongestSubstring.h" />
     <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="MaxArea.h" />
     <ClInclude Include="Palindrome.h" />
+    <ClInclude Include="RegularExpression.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StringAtoi.h" />
     <ClInclude Include="StringReverse.h" />
@@ -94,10 +97,13 @@
     <ClCompile Include="AddTwoNumber.cpp" />
     <ClCompile Include="FindMedianSortedArrays.cpp" />
     <ClCompile Include="intReverse.cpp" />
+    <ClCompile Include="IntToRoman.cpp" />
     <ClCompile Include="LeetCodeProject.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
+    <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="Palindrome.cpp" />
+    <ClCompile Include="RegularExpression.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

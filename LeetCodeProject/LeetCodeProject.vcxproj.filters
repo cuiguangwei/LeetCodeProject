@@ -48,6 +48,15 @@
     <ClInclude Include="Palindrome.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RegularExpression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxArea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntToRoman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +87,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LeetCodeProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularExpression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntToRoman.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
