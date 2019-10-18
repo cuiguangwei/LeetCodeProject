@@ -52,6 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\Part1;.\Part2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,37 +80,37 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddTwoNumber.h" />
-    <ClInclude Include="FindMedianSortedArrays.h" />
-    <ClInclude Include="intReverse.h" />
-    <ClInclude Include="IntToRoman.h" />
-    <ClInclude Include="LengthOfLongestSubstring.h" />
-    <ClInclude Include="LongestPalindrome.h" />
-    <ClInclude Include="MaxArea.h" />
-    <ClInclude Include="Palindrome.h" />
-    <ClInclude Include="RegularExpression.h" />
+    <ClInclude Include="Part1\AddTwoNumber.h" />
+    <ClInclude Include="Part1\FindMedianSortedArrays.h" />
+    <ClInclude Include="Part1\intReverse.h" />
+    <ClInclude Include="Part1\IntToRoman.h" />
+    <ClInclude Include="Part1\LengthOfLongestSubstring.h" />
+    <ClInclude Include="Part1\LongestPalindrome.h" />
+    <ClInclude Include="Part1\Palindrome.h" />
+    <ClInclude Include="Part1\RegularExpression.h" />
+    <ClInclude Include="Part1\StringAtoi.h" />
+    <ClInclude Include="Part1\StringReverse.h" />
+    <ClInclude Include="Part2\MaxArea.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="StringAtoi.h" />
-    <ClInclude Include="StringReverse.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AddTwoNumber.cpp" />
-    <ClCompile Include="FindMedianSortedArrays.cpp" />
-    <ClCompile Include="intReverse.cpp" />
-    <ClCompile Include="IntToRoman.cpp" />
     <ClCompile Include="LeetCodeProject.cpp" />
-    <ClCompile Include="LengthOfLongestSubstring.cpp" />
-    <ClCompile Include="LongestPalindrome.cpp" />
-    <ClCompile Include="MaxArea.cpp" />
-    <ClCompile Include="Palindrome.cpp" />
-    <ClCompile Include="RegularExpression.cpp" />
+    <ClCompile Include="Part1\AddTwoNumber.cpp" />
+    <ClCompile Include="Part1\FindMedianSortedArrays.cpp" />
+    <ClCompile Include="Part1\intReverse.cpp" />
+    <ClCompile Include="Part1\IntToRoman.cpp" />
+    <ClCompile Include="Part1\LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="Part1\LongestPalindrome.cpp" />
+    <ClCompile Include="Part1\Palindrome.cpp" />
+    <ClCompile Include="Part1\RegularExpression.cpp" />
+    <ClCompile Include="Part1\StringAtoi.cpp" />
+    <ClCompile Include="Part1\StringReverse.cpp" />
+    <ClCompile Include="Part2\MaxArea.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="StringAtoi.cpp" />
-    <ClCompile Include="StringReverse.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

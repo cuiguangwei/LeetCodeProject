@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Part1">
+      <UniqueIdentifier>{d79cea3c-cf80-4d60-a9ea-4e39de3cdac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Part1">
+      <UniqueIdentifier>{5e05c99c-ad1f-45fa-9d05-ebc0d6101aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Part2">
+      <UniqueIdentifier>{08f6d318-c9cf-4bbe-b5f1-0278496c1826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Part2">
+      <UniqueIdentifier>{a7db5fe7-a83b-4089-96d4-4923974a9d12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,79 +36,79 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AddTwoNumber.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\AddTwoNumber.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="LengthOfLongestSubstring.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\FindMedianSortedArrays.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="FindMedianSortedArrays.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\intReverse.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="LongestPalindrome.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\IntToRoman.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="StringReverse.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\LengthOfLongestSubstring.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="intReverse.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\LongestPalindrome.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="StringAtoi.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\Palindrome.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="Palindrome.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\RegularExpression.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="RegularExpression.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\StringAtoi.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="MaxArea.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part1\StringReverse.h">
+      <Filter>头文件\Part1</Filter>
     </ClInclude>
-    <ClInclude Include="IntToRoman.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Part2\MaxArea.h">
+      <Filter>头文件\Part2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AddTwoNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LengthOfLongestSubstring.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FindMedianSortedArrays.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LongestPalindrome.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StringReverse.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="intReverse.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StringAtoi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Palindrome.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="LeetCodeProject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="RegularExpression.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Part1\AddTwoNumber.cpp">
+      <Filter>源文件\Part1</Filter>
     </ClCompile>
-    <ClCompile Include="MaxArea.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Part1\FindMedianSortedArrays.cpp">
+      <Filter>源文件\Part1</Filter>
     </ClCompile>
-    <ClCompile Include="IntToRoman.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Part1\intReverse.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\IntToRoman.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\LengthOfLongestSubstring.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\LongestPalindrome.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\Palindrome.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\RegularExpression.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\StringAtoi.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1\StringReverse.cpp">
+      <Filter>源文件\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="Part2\MaxArea.cpp">
+      <Filter>源文件\Part2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
