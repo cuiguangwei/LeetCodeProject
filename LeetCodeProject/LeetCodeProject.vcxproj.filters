@@ -69,6 +69,12 @@
     <ClInclude Include="Part2\MaxArea.h">
       <Filter>头文件\Part2</Filter>
     </ClInclude>
+    <ClInclude Include="LongestCommonPrefix.h">
+      <Filter>头文件\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -109,6 +115,12 @@
     </ClCompile>
     <ClCompile Include="Part2\MaxArea.cpp">
       <Filter>源文件\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>源文件\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeSum.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
