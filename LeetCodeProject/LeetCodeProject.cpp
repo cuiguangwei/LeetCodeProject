@@ -14,6 +14,7 @@
 #include "intReverse.h"
 #include "StringAtoi.h"
 #include "Palindrome.h"
+#include "PhoneNumberCombinations.h"
 
 using namespace std;
 
@@ -55,6 +56,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	Palindrome pd;
 	pd.isNumberPalindrome(12321);
 
+	//电话号码的字母组合
+	PhoneNumberCombinations pnc;
+	vector<string> pncres = pnc.numberCombinations("23");
 
 	system("pause");
 

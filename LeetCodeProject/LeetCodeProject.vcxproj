@@ -92,6 +92,7 @@
     <ClInclude Include="Part1\StringAtoi.h" />
     <ClInclude Include="Part1\StringReverse.h" />
     <ClInclude Include="Part2\MaxArea.h" />
+    <ClInclude Include="Part2\PhoneNumberCombinations.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ThreeSum.h" />
@@ -110,6 +111,7 @@
     <ClCompile Include="Part1\StringAtoi.cpp" />
     <ClCompile Include="Part1\StringReverse.cpp" />
     <ClCompile Include="Part2\MaxArea.cpp" />
+    <ClCompile Include="Part2\PhoneNumberCombinations.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
