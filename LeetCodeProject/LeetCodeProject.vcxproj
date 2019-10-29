@@ -80,7 +80,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="Part1\AddTwoNumber.h" />
     <ClInclude Include="Part1\FindMedianSortedArrays.h" />
     <ClInclude Include="Part1\intReverse.h" />
@@ -91,15 +90,16 @@
     <ClInclude Include="Part1\RegularExpression.h" />
     <ClInclude Include="Part1\StringAtoi.h" />
     <ClInclude Include="Part1\StringReverse.h" />
+    <ClInclude Include="Part2\FourSum.h" />
+    <ClInclude Include="Part2\LongestCommonPrefix.h" />
     <ClInclude Include="Part2\MaxArea.h" />
     <ClInclude Include="Part2\PhoneNumberCombinations.h" />
+    <ClInclude Include="Part2\ThreeSum.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="ThreeSum.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeProject.cpp" />
-    <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="Part1\AddTwoNumber.cpp" />
     <ClCompile Include="Part1\FindMedianSortedArrays.cpp" />
     <ClCompile Include="Part1\intReverse.cpp" />
@@ -110,13 +110,15 @@
     <ClCompile Include="Part1\RegularExpression.cpp" />
     <ClCompile Include="Part1\StringAtoi.cpp" />
     <ClCompile Include="Part1\StringReverse.cpp" />
+    <ClCompile Include="Part2\FourSum.cpp" />
+    <ClCompile Include="Part2\LongestCommonPrefix.cpp" />
     <ClCompile Include="Part2\MaxArea.cpp" />
     <ClCompile Include="Part2\PhoneNumberCombinations.cpp" />
+    <ClCompile Include="Part2\ThreeSum.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="ThreeSum.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -60,6 +60,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	PhoneNumberCombinations pnc;
 	vector<string> pncres = pnc.numberCombinations("23");
 
+	string aaaa = "121212";
+	string b = move(aaaa);
 	system("pause");
 
 	return 0;
