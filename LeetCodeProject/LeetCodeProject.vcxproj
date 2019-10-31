@@ -96,6 +96,7 @@
     <ClInclude Include="Part2\PhoneNumberCombinations.h" />
     <ClInclude Include="Part2\RemoveListNodeFromEnd.h" />
     <ClInclude Include="Part2\ThreeSum.h" />
+    <ClInclude Include="Part2\ValidParentheses.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -117,6 +118,7 @@
     <ClCompile Include="Part2\PhoneNumberCombinations.cpp" />
     <ClCompile Include="Part2\RemoveListNodeFromEnd.cpp" />
     <ClCompile Include="Part2\ThreeSum.cpp" />
+    <ClCompile Include="Part2\ValidParentheses.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

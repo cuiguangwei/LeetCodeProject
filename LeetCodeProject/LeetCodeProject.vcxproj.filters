@@ -84,6 +84,9 @@
     <ClInclude Include="Part2\RemoveListNodeFromEnd.h">
       <Filter>头文件\Part2</Filter>
     </ClInclude>
+    <ClInclude Include="Part2\ValidParentheses.h">
+      <Filter>头文件\Part2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -138,6 +141,9 @@
       <Filter>源文件\Part2</Filter>
     </ClCompile>
     <ClCompile Include="Part2\RemoveListNodeFromEnd.cpp">
+      <Filter>源文件\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="Part2\ValidParentheses.cpp">
       <Filter>源文件\Part2</Filter>
     </ClCompile>
   </ItemGroup>

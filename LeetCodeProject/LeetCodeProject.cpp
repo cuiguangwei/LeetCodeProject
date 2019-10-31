@@ -15,6 +15,7 @@
 #include "StringAtoi.h"
 #include "Palindrome.h"
 #include "PhoneNumberCombinations.h"
+#include "ValidParentheses.h"
 
 using namespace std;
 
@@ -62,6 +63,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	string aaaa = "121212";
 	string b = move(aaaa);
+
+	//ÓÐÐ§µÄÀ¨ºÅ
+	ValidParentheses vps;
+	bool vpsres = vps.isValid("([)]");
+
 	system("pause");
 
 	return 0;
