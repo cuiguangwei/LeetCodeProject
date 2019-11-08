@@ -16,6 +16,7 @@
 #include "Palindrome.h"
 #include "PhoneNumberCombinations.h"
 #include "ValidParentheses.h"
+#include "MergeTwoLists.h"
 
 using namespace std;
 
@@ -23,8 +24,8 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	//两数相加
 	AddTwoNumber tn;
-	ListNode l1(5);
-	ListNode l2(5);
+	ListNode l1(1);
+	ListNode l2(3);
 	ListNode l3(5);
 	l1.next = &l2;
 	l2.next = &l3;
@@ -67,6 +68,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	//有效的括号
 	ValidParentheses vps;
 	bool vpsres = vps.isValid("([)]");
+
+
+	ListNode l4(2);
+	ListNode l5(3);
+	ListNode l6(7);
+	l4.next = &l5;
+	l5.next = &l6;
+	MergeTwoLists mtl;
+	ListNode *mtlret = mtl.mergeTwoLists(&l1, &l4);
 
 	system("pause");
 

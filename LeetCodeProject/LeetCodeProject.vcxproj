@@ -93,6 +93,7 @@
     <ClInclude Include="Part2\FourSum.h" />
     <ClInclude Include="Part2\LongestCommonPrefix.h" />
     <ClInclude Include="Part2\MaxArea.h" />
+    <ClInclude Include="Part2\MergeTwoLists.h" />
     <ClInclude Include="Part2\PhoneNumberCombinations.h" />
     <ClInclude Include="Part2\RemoveListNodeFromEnd.h" />
     <ClInclude Include="Part2\ThreeSum.h" />
@@ -115,6 +116,7 @@
     <ClCompile Include="Part2\FourSum.cpp" />
     <ClCompile Include="Part2\LongestCommonPrefix.cpp" />
     <ClCompile Include="Part2\MaxArea.cpp" />
+    <ClCompile Include="Part2\MergeTwoLists.cpp" />
     <ClCompile Include="Part2\PhoneNumberCombinations.cpp" />
     <ClCompile Include="Part2\RemoveListNodeFromEnd.cpp" />
     <ClCompile Include="Part2\ThreeSum.cpp" />
