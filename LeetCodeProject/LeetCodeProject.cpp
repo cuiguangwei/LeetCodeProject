@@ -17,6 +17,7 @@
 #include "PhoneNumberCombinations.h"
 #include "ValidParentheses.h"
 #include "MergeTwoLists.h"
+#include "TwoArrayIntersect.h"
 
 using namespace std;
 
@@ -38,9 +39,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//寻找两个有序数组的中位数
 	FindMedianSortedArrays fsa;
 
-	vector<int> nums1{1,2,3};
-	vector<int> nums2{6,8};
-	double a = fsa.findMedianSortedArrays(nums1, nums2);
+	//vector<int> nums1{1,2,3};
+	//vector<int> nums2{6,8};
+	//double a = fsa.findMedianSortedArrays(nums1, nums2);
 
 	//最长回文子串
 	LongestPalindrome lp;
@@ -77,6 +78,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	l5.next = &l6;
 	MergeTwoLists mtl;
 	ListNode *mtlret = mtl.mergeTwoLists(&l1, &l4);
+
+	TwoArrayIntersect tai;
+	vector<int> nums1{ 1,6,8,5,8 };
+	vector<int> nums2{ 6,8 };
+	vector<int> taires = tai.intersect(nums1, nums2);
 
 	system("pause");
 
