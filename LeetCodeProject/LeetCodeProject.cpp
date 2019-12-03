@@ -18,6 +18,7 @@
 #include "ValidParentheses.h"
 #include "MergeTwoLists.h"
 #include "TwoArrayIntersect.h"
+#include "BubbleSort.h"
 
 using namespace std;
 
@@ -83,6 +84,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	vector<int> nums1{ 1,6,8,5,8 };
 	vector<int> nums2{ 6,8 };
 	vector<int> taires = tai.intersect(nums1, nums2);
+
+	BubbleSort bs;
+	int arr[] = {1,6,4,3,8,3};
+	bs.bubbleSort(arr, 6);
 
 	system("pause");
 

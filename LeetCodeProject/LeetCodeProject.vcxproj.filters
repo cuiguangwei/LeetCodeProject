@@ -25,6 +25,12 @@
     <Filter Include="源文件\Part2">
       <UniqueIdentifier>{a7db5fe7-a83b-4089-96d4-4923974a9d12}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Part3">
+      <UniqueIdentifier>{fd46f071-c86d-49a2-8813-f7d2b70e81ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sort">
+      <UniqueIdentifier>{0fdd271c-1828-4dd2-866e-e04adba5ce92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -96,6 +102,12 @@
     <ClInclude Include="Part2\TwoArrayIntersect.h">
       <Filter>头文件\Part2</Filter>
     </ClInclude>
+    <ClInclude Include="Part3\SortList.h">
+      <Filter>源文件\Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort\BubbleSort.h">
+      <Filter>源文件\Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -163,6 +175,12 @@
     </ClCompile>
     <ClCompile Include="Part2\TwoArrayIntersect.cpp">
       <Filter>源文件\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="Part3\SortList.cpp">
+      <Filter>源文件\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\BubbleSort.cpp">
+      <Filter>源文件\Sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
