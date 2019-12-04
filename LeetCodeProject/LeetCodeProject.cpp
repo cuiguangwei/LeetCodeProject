@@ -19,6 +19,7 @@
 #include "MergeTwoLists.h"
 #include "TwoArrayIntersect.h"
 #include "BubbleSort.h"
+#include "SelectSort.h"
 
 using namespace std;
 
@@ -86,8 +87,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	vector<int> taires = tai.intersect(nums1, nums2);
 
 	BubbleSort bs;
-	int arr[] = {1,6,4,3,8,3};
-	bs.bubbleSort(arr, 6);
+	int bsarr[] = {1,6,4,3,8,3};
+	bs.bubbleSort(bsarr, 6);
+
+	SelectSort ss;
+	int ssarr[] = { 1,6,4,3,8,3 };
+	ss.selectSort(ssarr, 6);
 
 	system("pause");
 
