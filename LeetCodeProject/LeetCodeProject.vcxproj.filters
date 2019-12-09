@@ -111,6 +111,9 @@
     <ClInclude Include="Sort\SelectSort.h">
       <Filter>源文件\Sort</Filter>
     </ClInclude>
+    <ClInclude Include="Sort\InsertSort.h">
+      <Filter>源文件\Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -186,6 +189,9 @@
       <Filter>源文件\Sort</Filter>
     </ClCompile>
     <ClCompile Include="Sort\SelectSort.cpp">
+      <Filter>源文件\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\InsertSort.cpp">
       <Filter>源文件\Sort</Filter>
     </ClCompile>
   </ItemGroup>

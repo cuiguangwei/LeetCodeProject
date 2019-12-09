@@ -20,6 +20,7 @@
 #include "TwoArrayIntersect.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
+#include "InsertSort.h"
 
 using namespace std;
 
@@ -93,6 +94,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	SelectSort ss;
 	int ssarr[] = { 1,6,4,3,8,3 };
 	ss.selectSort(ssarr, 6);
+
+	InsertSort is;
+	int isarr[] = { 1,6,4,3,8,3 };
+	is.insertSort(isarr, 6);
+
 
 	system("pause");
 
