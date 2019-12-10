@@ -21,6 +21,7 @@
 #include "BubbleSort.h"
 #include "SelectSort.h"
 #include "InsertSort.h"
+#include "QuickSort.h"
 
 using namespace std;
 
@@ -99,6 +100,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	int isarr[] = { 1,6,4,3,8,3 };
 	is.insertSort(isarr, 6);
 
+	QuickSort qs;
+	int qsarr[] = { 5, 3, 8, 6, 4 };
+	qs.qucikSort(qsarr, 5);
 
 	system("pause");
 
