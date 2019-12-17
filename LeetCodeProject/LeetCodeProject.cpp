@@ -22,6 +22,7 @@
 #include "SelectSort.h"
 #include "InsertSort.h"
 #include "QuickSort.h"
+#include "HeapSort.h"
 
 using namespace std;
 
@@ -103,6 +104,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	QuickSort qs;
 	int qsarr[] = { 5, 3, 8, 6, 4 };
 	qs.qucikSort(qsarr, 5);
+
+	HeapSort hs;
+	int hsarr[] = {16, 7, 3, 20, 17, 8};
+	hs.heapSort(hsarr, 6);
 
 	system("pause");
 
