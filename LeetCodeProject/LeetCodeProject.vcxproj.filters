@@ -120,6 +120,9 @@
     <ClInclude Include="Sort\HeapSort.h">
       <Filter>源文件\Sort</Filter>
     </ClInclude>
+    <ClInclude Include="Sort\ShellSort.h">
+      <Filter>源文件\Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -204,6 +207,9 @@
       <Filter>源文件\Sort</Filter>
     </ClCompile>
     <ClCompile Include="Sort\HeapSort.cpp">
+      <Filter>源文件\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\ShellSort.cpp">
       <Filter>源文件\Sort</Filter>
     </ClCompile>
   </ItemGroup>

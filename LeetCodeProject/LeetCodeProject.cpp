@@ -23,6 +23,7 @@
 #include "InsertSort.h"
 #include "QuickSort.h"
 #include "HeapSort.h"
+#include "ShellSort.h"
 
 using namespace std;
 
@@ -108,6 +109,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	HeapSort hs;
 	int hsarr[] = {16, 7, 3, 20, 17, 8};
 	hs.heapSort(hsarr, 6);
+
+	ShellSort ssort;
+	int shellsarr[] = { 16, 7, 3, 20, 17, 8 };
+	ssort.shellSort(shellsarr, 6);
 
 	system("pause");
 

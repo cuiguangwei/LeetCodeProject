@@ -106,6 +106,7 @@
     <ClInclude Include="Sort\InsertSort.h" />
     <ClInclude Include="Sort\QuickSort.h" />
     <ClInclude Include="Sort\SelectSort.h" />
+    <ClInclude Include="Sort\ShellSort.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -137,6 +138,7 @@
     <ClCompile Include="Sort\InsertSort.cpp" />
     <ClCompile Include="Sort\QuickSort.cpp" />
     <ClCompile Include="Sort\SelectSort.cpp" />
+    <ClCompile Include="Sort\ShellSort.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
