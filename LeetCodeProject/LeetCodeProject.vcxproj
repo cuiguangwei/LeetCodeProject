@@ -105,6 +105,7 @@
     <ClInclude Include="Sort\BubbleSort.h" />
     <ClInclude Include="Sort\HeapSort.h" />
     <ClInclude Include="Sort\InsertSort.h" />
+    <ClInclude Include="Sort\MergeSort.h" />
     <ClInclude Include="Sort\QuickSort.h" />
     <ClInclude Include="Sort\SelectSort.h" />
     <ClInclude Include="Sort\ShellSort.h" />
@@ -137,6 +138,7 @@
     <ClCompile Include="Sort\BubbleSort.cpp" />
     <ClCompile Include="Sort\HeapSort.cpp" />
     <ClCompile Include="Sort\InsertSort.cpp" />
+    <ClCompile Include="Sort\MergeSort.cpp" />
     <ClCompile Include="Sort\QuickSort.cpp" />
     <ClCompile Include="Sort\SelectSort.cpp" />
     <ClCompile Include="Sort\ShellSort.cpp" />

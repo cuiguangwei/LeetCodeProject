@@ -24,6 +24,7 @@
 #include "QuickSort.h"
 #include "HeapSort.h"
 #include "ShellSort.h"
+#include "MergeSort.h"
 
 using namespace std;
 
@@ -113,6 +114,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	ShellSort ssort;
 	int shellsarr[] = { 16, 7, 3, 20, 17, 8 };
 	ssort.shellSort(shellsarr, 6);
+
+	MergeSort msort;
+	int msortarr[] = {49,38,65,97,76,13,27};
+	msort.mergeSort(msortarr, 0, 6);
 
 	system("pause");
 
