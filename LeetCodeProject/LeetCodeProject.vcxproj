@@ -103,6 +103,7 @@
     <ClInclude Include="Part2\ValidParentheses.h" />
     <ClInclude Include="Part3\SortList.h" />
     <ClInclude Include="Sort\BubbleSort.h" />
+    <ClInclude Include="Sort\CountSort.h" />
     <ClInclude Include="Sort\HeapSort.h" />
     <ClInclude Include="Sort\InsertSort.h" />
     <ClInclude Include="Sort\MergeSort.h" />
@@ -136,6 +137,7 @@
     <ClCompile Include="Part2\ValidParentheses.cpp" />
     <ClCompile Include="Part3\SortList.cpp" />
     <ClCompile Include="Sort\BubbleSort.cpp" />
+    <ClCompile Include="Sort\CountSort.cpp" />
     <ClCompile Include="Sort\HeapSort.cpp" />
     <ClCompile Include="Sort\InsertSort.cpp" />
     <ClCompile Include="Sort\MergeSort.cpp" />

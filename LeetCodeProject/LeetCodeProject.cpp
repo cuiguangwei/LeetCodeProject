@@ -25,6 +25,7 @@
 #include "HeapSort.h"
 #include "ShellSort.h"
 #include "MergeSort.h"
+#include "CountSort.h"
 
 using namespace std;
 
@@ -118,6 +119,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	MergeSort msort;
 	int msortarr[] = {49,38,65,97,76,13,27};
 	msort.mergeSort(msortarr, 0, 6);
+
+	CountSort csort;
+	int csortarr[] = {2,2,1,4,4,5,5,9,3,3,3,2,1,4,6,6,8};
+	csort.countSort(csortarr, 17);
 
 	system("pause");
 

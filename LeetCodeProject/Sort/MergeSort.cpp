@@ -18,7 +18,8 @@ MergeSort::~MergeSort()
 
 void merge(int arr[], int low, int mid, int high)
 {
-	int *temp = new int(high - low + 1);//开辟一个新的数组，将原数组映射进去 
+	//int *temp = new int(high - low + 1);//开辟一个新的数组，将原数组映射进去 
+	int *temp = (int *)malloc((high - low + 1) * sizeof(int));
 	int i = low;//左子数组开始位置
 	int j = mid + 1;//右子数组开始位置
 	int t = 0;//临时空间指针
